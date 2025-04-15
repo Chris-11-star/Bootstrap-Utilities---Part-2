@@ -1,0 +1,28 @@
+.card{
+    background-color: lavender;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px darkred;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 40px;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px blue;
+}
+.card-img-top{
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+.card body{
+    text-align: center;
+}
+.card-title{
+    font-weight: bold;
+    color: burlywood;
+    font-family: cursive; 
+}
+.card-p{
+    font-size: 16px;
+}
