@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm" style="position: fixed;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm" style="position: fixed; z-index: 1000; width: 100%; top: 0;">
         <div class="container">
             <a class="navbar-brand" href="#" style="display: flex; align-items: center;">
-                <img src="400w-R-Meu_EcnME.webp" alt="Logo" style="width: 50px; height: 50px; border-radius: 50%;"> <h5>Company Logo</h5>
+                <img src="images.png" alt="Myfugo" style="width: 50px; height: 50px; border-radius: 50%;"> <h5>Myfugo</h5>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -19,15 +19,32 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ns-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">More info</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#About us">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#More info">More info</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Products">Products</a></li>
             </ul>
         </div>
     </nav>
-    <div class="container mt-4" style="margin-top: 70px;">
+    <div id="home" class="container-fluid nt-5 pt-5">
+        <div id="mainCarousel" class="carousel slide md-5" data-bs-ride="carousel">
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active">
+                    <img src="istockphoto-485371557-612x612.jpg" alt="pic1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="download (1).jpg" alt="pic1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="download.jpg" alt="pic1" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+        </div>
+    </div>     
+    <div id="About us" class="container mt-4" style="margin-top: 70px;">
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="card">
@@ -84,6 +101,24 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div id="More info" class="container-fluid bg-light text-center" style="margin-top: 100px;">
+        <section>
+            <h2 class="display-4">More info</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque enim voluptates maxime ducimus voluptatem dolore unde expedita repellendus nobis. Hic explicabo nam labore voluptas beatae soluta ipsum quidem necessitatibus reiciendis dolorem aperiam suscipit culpa sapiente, autem modi itaque provident? Sed, velit accusantium iure porro aperiam quod! Debitis optio animi, natus, magnam veniam ratione quidem quia odit sint adipisci illo corporis officia delectus repellat dignissimos illum fugiat id quis explicabo esse voluptate autem quasi? Omnis placeat a iure, incidunt eveniet maiores officia aliquam asperiores ratione possimus numquam deserunt assumenda magni. Officiis aspernatur eum ducimus quod numquam reiciendis odit architecto ipsam temporibus.</p>
+        </section>
+    </div>
+    <div id="Contact" class="container-fluid bg-light text-center" style="margin-top: 100px;">
+        <section>
+            <h2 class="display-4">Contact</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque enim voluptates maxime ducimus voluptatem dolore unde expedita repellendus nobis. Hic explicabo nam labore voluptas beatae soluta ipsum quidem necessitatibus reiciendis dolorem aperiam suscipit culpa sapiente, autem modi itaque provident? Sed, velit accusantium iure porro aperiam quod! Debitis optio animi, natus, magnam veniam ratione quidem quia odit sint adipisci illo corporis officia delectus repellat dignissimos illum fugiat id quis explicabo esse voluptate autem quasi? Omnis placeat a iure, incidunt eveniet maiores officia aliquam asperiores ratione possimus numquam deserunt assumenda magni. Officiis aspernatur eum ducimus quod numquam reiciendis odit architecto ipsam temporibus.</p>
+        </section>
+    </div>
+    <div id="Products" class="container-fluid bg-light text-center" style="margin-top: 100px;">
+        <section>
+            <h2 class="display-4">Products</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque enim voluptates maxime ducimus voluptatem dolore unde expedita repellendus nobis. Hic explicabo nam labore voluptas beatae soluta ipsum quidem necessitatibus reiciendis dolorem aperiam suscipit culpa sapiente, autem modi itaque provident? Sed, velit accusantium iure porro aperiam quod! Debitis optio animi, natus, magnam veniam ratione quidem quia odit sint adipisci illo corporis officia delectus repellat dignissimos illum fugiat id quis explicabo esse voluptate autem quasi? Omnis placeat a iure, incidunt eveniet maiores officia aliquam asperiores ratione possimus numquam deserunt assumenda magni. Officiis aspernatur eum ducimus quod numquam reiciendis odit architecto ipsam temporibus.</p>
+        </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
